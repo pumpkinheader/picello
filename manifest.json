@@ -1,0 +1,12 @@
+{
+  "name": "Example 0: Hello World in Console @Trello",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "This is an example to print Hello World in Chrome console",
+  "content_scripts": [
+  {
+    "matches": ["https://trello.com/*"],
+    "js": ["background.js"]
+  }
+]
+}
